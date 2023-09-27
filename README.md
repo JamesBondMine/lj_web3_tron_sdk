@@ -1,39 +1,91 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# example
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+lj_web3_tron_sdk support dapp load
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+## Getting Started
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+lj_web3_tron_sdk: ^1.0.0
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+引入方式
 
 ```dart
-const like = 'sample';
+import 'package:lj_web3_tron_sdk/lj_web3_tron_sdk.dart';
+import 'package:lj_web3_tron_sdk/src/models/chain_model.dart';
 ```
+
+
+web3_dapp_browser 具体实现
+
+
+声明
+
+```dart
+// 钱包
+  Web3Model token = Web3Model();
+
+  // 代币
+  ChainModel chain = ChainModel();
+
+```
+
+
+创建助记词
+
+```dart
+
+Web3TronSDK.generateMnemonic();
+
+```
+
+创建区块链钱包
+
+```dart
+
+Web3TronSDK.getToken(token.mnemonic, type: ChainTypes.eth);
+
+```
+
+
+获取对应链的对象
+
+```dart
+
+await Web3TronSDK.getChainModel(ChainTypes.eth);
+
+```
+
+
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+初始效果
+
+
+<table>
+<tr>
+<td valign="center"><img src="https://github.com/JamesBondMine/lj_web3_tron_sdk/blob/main/lib/assets/preview/1.png?raw=true"> 
+</td>
+</tr>
+</table>
+
+创建效果
+
+<table>
+<tr>
+<td valign="center"><img src="https://github.com/JamesBondMine/lj_web3_tron_sdk/blob/main/lib/assets/preview/2.png?raw=true"> 
+</td>
+<td valign="center"><img src="https://github.com/JamesBondMine/lj_web3_tron_sdk/blob/main/lib/assets/preview/3.png?raw=true"> 
+</td>
+</tr>
+<tr>
+<td valign="center"><img src="https://github.com/JamesBondMine/lj_web3_tron_sdk/blob/main/lib/assets/preview/4.png?raw=true"> 
+</td>
+</tr>
+</table>
+
+
+

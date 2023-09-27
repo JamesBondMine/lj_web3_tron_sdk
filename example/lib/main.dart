@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lj_web3_tron_sdk/lj_web3_tron_sdk.dart';
+// ignore: implementation_imports
 import 'package:lj_web3_tron_sdk/src/models/chain_model.dart';
 
 void main() {
