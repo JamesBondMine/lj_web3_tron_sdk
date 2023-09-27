@@ -21,6 +21,8 @@ dependencies:
   dio: ^5.3.0
 
   webview_flutter: ^4.0.0
+  flutter:
+    sdk: flutter
 
 # dependencies:
 #   path: ^1.8.0
@@ -28,3 +30,20 @@ dependencies:
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.21.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - packages/lj_web3_tron_sdk/assets/images/ETH.png
+    - packages/lj_web3_tron_sdk/assets/images/BSC.png
+    - packages/lj_web3_tron_sdk/assets/images/BNB.png
+    - packages/lj_web3_tron_sdk/assets/images/TRX.png
+    - packages/lj_web3_tron_sdk/assets/images/USDT.png
+    - packages/lj_web3_tron_sdk/assets/images/USDC.png
+    - packages/lj_web3_tron_sdk/assets/images/CREAM.png
+    - packages/lj_web3_tron_sdk/assets/images/WETH.png
+    - packages/lj_web3_tron_sdk/assets/images/YFI.png
+    - packages/lj_web3_tron_sdk/assets/images/BUSD.png
+    - packages/lj_web3_tron_sdk/assets/images/WTRX.png
+    - packages/lj_web3_tron_sdk/assets/json/config.json
+    
