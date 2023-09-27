@@ -1,5 +1,5 @@
 name: lj_web3_tron_sdk
-description: A starting point for Dart libraries or applications.
+description: SDK can create ETH 、BSC chain and coins.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 homepage: https://github.com/JamesBondMine/lj_web3_tron_sdk

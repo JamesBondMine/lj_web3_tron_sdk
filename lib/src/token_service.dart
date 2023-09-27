@@ -101,9 +101,9 @@ class TokenService {
         res["icon"] = LjPath().imagePath("ETH");
     }
     chain = ChainModel.fromJson(res);
-    chain.symbols.forEach((element) {
+    for (var element in chain.symbols) {
       element.icon=LjPath().imagePath(element.symbol);
-    });
+    }
     return chain;
   }
 
