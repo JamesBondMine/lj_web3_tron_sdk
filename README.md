@@ -1,11 +1,11 @@
 # example
 
-lj_web3_tron_sdk support dapp load
+lj_web3_tron_sdk support ETH、BSC、TRX chains
 
 ## Getting Started
 
 ```dart
-lj_web3_tron_sdk: ^1.0.0
+lj_web3_tron_sdk: ^1.0.1
 ```
 
 ## Usage

@@ -17,10 +17,10 @@ class TokenService {
   }
 
   // 助记词转私钥Private Key
-  static Web3Model getPrivateKey(String mnemonic, {String path = "", ChainTypes type = ChainTypes.eth}) {
+  static Web3Model getPrivateKey(String mnemonic, {String path = "", ChainTypes type = ChainTypes.eth, int index = 0}) {
     final seed = bip39.mnemonicToSeed(mnemonic);
     final root = bip32.BIP32.fromSeed(seed);
-    String pathStr = path.isNotEmpty ? path : LjPath().getPath(type);
+    String pathStr = path.isNotEmpty ? path : LjPath().getPath(type, index: index);
     final child1 = root.derivePath(pathStr);
     String privateKey = bytesToHex(child1.privateKey!.toList());
 

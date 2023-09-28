@@ -1,6 +1,6 @@
 name: lj_web3_tron_sdk
 description: SDK can create ETH 、BSC chain and coins.
-version: 1.0.0
+version: 1.0.1
 # repository: https://github.com/my_org/my_repo
 homepage: https://github.com/JamesBondMine/lj_web3_tron_sdk
 
@@ -19,6 +19,8 @@ dependencies:
   cached_network_image: ^3.2.2
   # 网络请求库
   dio: ^5.3.0
+
+  wallet: ^0.0.11
 
   webview_flutter: ^4.0.0
   flutter:

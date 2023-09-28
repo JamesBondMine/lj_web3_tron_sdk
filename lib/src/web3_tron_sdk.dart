@@ -2,6 +2,7 @@ import 'package:lj_web3_tron_sdk/src/models/chain_model.dart';
 import 'package:lj_web3_tron_sdk/src/path.dart';
 import 'package:web3dart/web3dart.dart';
 import './token_service.dart';
+import './tron_service.dart';
 import 'package:flutter/material.dart';
 
 class Web3TronSDK {
@@ -11,8 +12,8 @@ class Web3TronSDK {
   }
 
   // 助记词转私钥Private Key
-  static String getPrivateKey(String mnemonic, {String path = "", ChainTypes type = ChainTypes.eth}) {
-    return TokenService.getPrivateKey(mnemonic, path: path, type: type).privateKey;
+  static String getPrivateKey(String mnemonic, {String path = "", ChainTypes type = ChainTypes.eth, int index = 0}) {
+    return TokenService.getPrivateKey(mnemonic, path: path, type: type, index: index).privateKey;
   }
 
   // 仅支持EVM
@@ -31,8 +32,12 @@ class Web3TronSDK {
   }
 
   // 获取Token
-  static Web3Model getToken(String mnemonic, {ChainTypes type = ChainTypes.eth}) {
-    Web3Model pkyModel = TokenService.getPrivateKey(mnemonic,type: type);
+  static Web3Model getToken(String mnemonic, {ChainTypes type = ChainTypes.eth, int index = 0}) {
+    Web3Model pkyModel = TokenService.getPrivateKey(mnemonic,type: type, index: index);
+    if (type == ChainTypes.trx) {
+      String address = TronService.addressFromMnemonic(mnemonic, pkyModel.path);
+      return pkyModel..address = address;
+    }
     String address = TokenService.getStrAddress(pkyModel.privateKey);
     return pkyModel..address = address;
   }
