@@ -69,6 +69,7 @@ await Web3TronSDK.getChainModel(ChainTypes.eth);
 <tr>
 <td valign="center"><img src="https://github.com/JamesBondMine/lj_web3_tron_sdk/blob/main/lib/assets/preview/1.png?raw=true"> 
 </td>
+<td></td>
 </tr>
 </table>
 
