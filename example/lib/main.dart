@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lj_web3_tron_sdk/lj_web3_tron_sdk.dart';
 // ignore: implementation_imports
 import 'package:lj_web3_tron_sdk/src/models/chain_model.dart';
+import './test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -166,6 +167,25 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
+          TextButton(
+              onPressed: () {
+                Navigator.of(context).push(new MaterialPageRoute(builder: (_) {
+                    return new OperateClass();
+                  }));
+
+              },
+              child: Container(
+                // width: 100,
+                height: 36,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                    color: Colors.purple.withAlpha(200),
+                    borderRadius: const BorderRadius.all(Radius.circular(8))),
+                child: const Text(
+                  "push",
+                  style: TextStyle(color: Colors.white),
+                ),
+              )),
           TextButton(
               onPressed: () async {
                 token =

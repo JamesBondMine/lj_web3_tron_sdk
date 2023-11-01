@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/path_provider_foundation-master.dia",
+    "emit-module-dependencies" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/path_provider_foundation-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/path_provider_foundation-master-emit-module.dia",
+    "swift-dependencies" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/path_provider_foundation-master.swiftdeps"
+  },
+  "/Users/niulujia/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/ios/Classes/messages.g.swift" : {
+    "const-values" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/messages.g.swiftconstvalues",
+    "dependencies" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/messages.g.d",
+    "diagnostics" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/messages.g.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/messages.g.o",
+    "llvm-bc" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/messages.g.bc",
+    "object" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/messages.g.o",
+    "swift-dependencies" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/messages.g.swiftdeps",
+    "swiftmodule" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/messages.g~partial.swiftmodule"
+  },
+  "/Users/niulujia/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/ios/Classes/PathProviderPlugin.swift" : {
+    "const-values" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/PathProviderPlugin.swiftconstvalues",
+    "dependencies" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/PathProviderPlugin.d",
+    "diagnostics" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/PathProviderPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/PathProviderPlugin.o",
+    "llvm-bc" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/PathProviderPlugin.bc",
+    "object" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/PathProviderPlugin.o",
+    "swift-dependencies" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/PathProviderPlugin.swiftdeps",
+    "swiftmodule" : "/Users/niulujia/Documents/GitHub/lj_web3_tron_sdk/example/ios/build/Pods.build/Debug-iphoneos/path_provider_foundation.build/Objects-normal/arm64/PathProviderPlugin~partial.swiftmodule"
+  }
+}
